@@ -2,7 +2,7 @@
 
 Knuth Optimization은 Dynamic Programming에서 점화식이 특정 조건을 만족할 때 활용할 수 있는 최적화 기법이다.
 
-조건 1 DP 점화식 꼴
+조건 1 DP 점화식 꼴  
 *(i<k<j) 일 때,* ``D[i][j] = min(D[i][k] + D[k][j]) + C[i][j]``
 
 조건 2 Quadrangle Inequalty (사각부등식)  
