@@ -79,6 +79,19 @@ _텍스트_
 ```
 [구글](https://google.co.kr)
 
+### 헤더 링크(Anchors)  
+동일 문서  
+`[링크](#헤더 이름)`  
+[index](#index)  
+
+다른 문서  
+헤더와 함께 ``<a name=이름></a>`` 선언
+``### <a name="head1234"></a>다른 문서 헤더 링크``  
+
+링크는 다음과 같이 작성한다.
+``[링크](http://....#head1234)``  
+ [다른 문서 헤더 링크](https://github.com/dohun94/TIL/blob/master/git/gitTip.md#gitignore)
+
 ### 이미지
 ```
 ![사진제목](http://i.imgur.com/GRhcVuw.jpg)
@@ -106,7 +119,7 @@ code
 '''
 ```
 
-'대신에 `를 써야한다
+'대신에 \`를 써야한다
 
 ```
 <html>
@@ -125,4 +138,4 @@ code
 ***
 ```
 
-***
+***  
