@@ -10,6 +10,7 @@
 * [볼드체](#볼드체)
 * [이탤릭체](#이탤릭체)
 * [링크](#링크)
+* [헤더 링크](#헤더-링크)
 * [이미지](#이미지)
 * [인용구](#인용구)
 * [코드](#코드)
@@ -79,18 +80,18 @@ _텍스트_
 ```
 [구글](https://google.co.kr)
 
-### 헤더 링크(Anchors)  
-동일 문서  
+### 헤더 링크
+**동일 문서**  
 `[링크](#헤더 이름)`  
-[index](#index)  
+[동일 문서 헤더 링크](#index)  
 
-다른 문서  
-헤더와 함께 ``<a name=이름></a>`` 선언
+**다른 문서**  
+헤더와 함께 ``<a name=이름></a>`` 선언  
 ``### <a name="head1234"></a>다른 문서 헤더 링크``  
 
-링크는 다음과 같이 작성한다.
+링크는 다음과 같이 작성  
 ``[링크](http://....#head1234)``  
- [다른 문서 헤더 링크](https://github.com/dohun94/TIL/blob/master/git/gitTip.md#gitignore)
+ [다른 문서 헤더 링크](https://github.com/dohun94/TIL/blob/master/git/gitTip.md#gitignore)  
 
 ### 이미지
 ```
