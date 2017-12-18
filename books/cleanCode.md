@@ -114,3 +114,21 @@ report.appendFooter();
 - 객체와 자료구조는 근본적으로 양분된다.
 - 절차적인 코드는 새로운 자료 구조를 추가하기 어렵다. 모든 함수를 고쳐야 한다.
 - 객체 지향 코드는 새로운 함수를 추가하기 어렵다. 그러려면 모든 클래스를 고쳐야 한다.
+##### 디미터 법칙  
+- 모듈은 자신이 조작하는 객체의 속사정을 몰라야 한다는 법칙.
+- 클래스 C의 메서드 f는 다음과 같은 객체의 메서드만 호출해야 한다, 고 주장한다.
+- 클래스 C
+- f가 생성한 객체
+- f 인수로 넘어온 객체
+- C 인스턴스 변수에 저장된 객체
+- 낮선 사람은 경계하고 친구랑만 놀라는 의미
+```
+final String outputDir = ctxt.getOptions().getScratchDir().getAbsolutePath();
+```
+같은 코드를 쓰지 말라는 것. 이를 기차 충돌(train wreck) 이라고 부른다.  
+다음과 같이 코드를 나누는 편이 좋다.  
+```
+Options opts = ctxt.getOptions();
+File scratchDir = opts.getScratchDir();
+final String outputDir = scratchDir.getAbsolutePath();
+```
