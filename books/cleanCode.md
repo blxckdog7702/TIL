@@ -6,6 +6,7 @@
 * [4장 주석](#4장-주석)
 * [5장 형식 맞추기](#5장-형식-맞추기)
 * [6장 객체와 자료구조](#6장-객체와-자료구조)
+* [7장 오류 처리](#7장-오류-처리)
 
 ## 2장 의미있는 이름  
 ##### 의도를 분명하게 밝혀라  
@@ -132,3 +133,28 @@ Options opts = ctxt.getOptions();
 File scratchDir = opts.getScratchDir();
 final String outputDir = scratchDir.getAbsolutePath();
 ```
+
+## 7장 오류 처리  
+##### 오류 코드보다 예외를 사용하라  
+- 오류가 발생하면 예외를 던지는 편이 호출자 코드가 깔끔해진다.
+
+##### 호출자를 고려해 예외 클래스를 작성하라  
+- 오류 분류를 잘만 해놓아도 깔끔하게 예외 처리가 가능
+- wrapper 클래스를 이용해서 관련 예외를 하나로 처리
+```
+//wrapper 클래스
+LocalPort port = new LocalPort(12);
+try {
+  port.open();
+} catch {
+  //blah...
+}
+```
+
+##### null을 반환하지 마라  
+- null을 반환하는 것은 일거리를 늘릴 뿐 아니라 호출자에게 문제를 떠넘긴다.
+- null을 반환하면 꼭 null 체크를 해줘야한다.
+- 예외를 던지거나 특수 사례 개체 ex)`return Collections.emptyList()`를 반환하는 것이 좋다.
+
+##### null을 전달하지 마라  
+- null인 가능성이 있는 객체를 전달하기 이전에 null 체크가 필요하다.
