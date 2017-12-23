@@ -211,3 +211,28 @@ try {
 - 일반적으로 메서드가 변수를 더 많이 사용할수록 메서드와 클래스는 응집도가 더 높다.
 - 모든 인스턴스 변수를 메서드마다 사용하는 클래스는 응집도가 가장 높다.
 - 응집도를 유지하면 작은 클래스 여럿이 나온다.
+
+##### 변경으로부터 격리  
+- 객체지향 프로그래밍 입문에서 구체적인(concrete) 클래스와 추상(abstract) 클래스가 있다고 배웠다.
+- 구체적인 클래스는 상세한 구현을 포함한다.
+- 추상 클래스는 개념만 포함한다.
+- 상세한 구현에 의존하는 코드는 테스트가 어렵다.
+
+Portfolio 클래스는 외부 TokyoStockExchange API를 사용해 포트폴리오 값을 계산한다. 따라서 테스트 코드는 외부 시세 변화에 영향을 받는다. 5분 마다 값이 달라지는 API로 테스트 코드를 짜기란 쉽지 않다.  
+Portfolio 클래스에서 TokyoStockExchange API를 직접 호출하는 대신 StockExchange라는 인터페이스를 생성한 후 메서드를 선언한다.
+
+```
+public interface StockExchange {
+  Money currentPrice(String symbol);
+}
+```
+
+```
+public Portfolio {
+  private StockExchange exchange;
+  public Portfolio(StockExchange exchange) {
+    this.exchange = exchange;
+  }
+}
+```
+다음과 같이 개선한 Portfolio 클래스는 TokyoStockExchange라는 상세한 구현 클래스가 아니라 StockExchange 인터페이스에 의존한다. StockExchange 인터페이스는 주식 기호를 받아 현재 주식 가격을 반환한다는 추상적인 개념을 표현한다. 이와 같은 추상화로 실제로 주가를 얻어오는 출처나 얻어오는 방식 등과 같은 구체적인 사실을 모두 숨긴다.
