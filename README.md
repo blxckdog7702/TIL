@@ -18,6 +18,7 @@
   * [자바 인자 전달 방식](https://github.com/dohun94/TIL/blob/master/java/callByValue.md)  
   * [문자열 처리 팁](https://github.com/dohun94/TIL/blob/master/java/StringHandling.md)
   * [자바 자료형 정리](https://github.com/dohun94/TIL/blob/master/java/Types.md)
+  * [EOF 처리](https://github.com/dohun94/TIL/blob/master/java/eof.md)
 
  * books
    * [Clean Code](https://github.com/dohun94/TIL/blob/master/books/cleanCode.md)
