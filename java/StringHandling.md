@@ -11,3 +11,9 @@
   - ```isEmpty(null);``` = true;
   - ```isEmpty("");``` = true;
   - ```isEmpty(" ");``` = false;
+
+4. 일일이 sysout으로 찍는 것보다 StringBuilder에 넣어서 한 번에 찍는게 더 빠르다.
+
+5. StringBuilder 개행문자 처리 방법.
+  - 자바 7이후 : ```sb.append(System.lineSeparator());```
+  - 기존 : ```sb.append(System.getProperty("line.separator"));```
