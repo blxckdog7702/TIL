@@ -8,3 +8,8 @@
           Arrays.fill(arr[i], ' ');
       }
   ```
+2. 정렬
+```
+Arrays.sort(arr);
+
+```
