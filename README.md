@@ -4,6 +4,7 @@
 ### index  
 * 알고리즘  
   * [Knuth Optimization](https://github.com/dohun94/TIL/blob/master/algorithm/Knuth%20Optimization.md)
+  * [정렬 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/sort.md)
 * 자료구조
   * [Trie](https://github.com/dohun94/TIL/blob/master/dataStructure/trie.md)
 
@@ -27,4 +28,4 @@
    * [Clean Code](https://github.com/dohun94/TIL/blob/master/books/cleanCode.md)
 
  * etc
-   * [프레임워크 vs 라이브러리](https://github.com/dohun94/TIL/blob/master/etc/frameworkVsLibrary.md) 
+   * [프레임워크 vs 라이브러리](https://github.com/dohun94/TIL/blob/master/etc/frameworkVsLibrary.md)
