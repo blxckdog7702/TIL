@@ -5,6 +5,7 @@
 * 알고리즘  
   * [Knuth Optimization](https://github.com/dohun94/TIL/blob/master/algorithm/Knuth%20Optimization.md)
   * [정렬 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/sort.md)
+  * [꼬리 재귀](https://github.com/dohun94/TIL/blob/master/algorithm/Tail%20Recursion.md)
 * 자료구조
   * [Trie](https://github.com/dohun94/TIL/blob/master/dataStructure/trie.md)
 
