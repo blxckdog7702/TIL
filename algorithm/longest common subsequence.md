@@ -1,4 +1,4 @@
-# 최장 공통 부분 수열(Longest common substring)  
+# 최장 공통 부분 수열(longest common subsequence)  
 
 ![lcs](lcs.svg)  
 
