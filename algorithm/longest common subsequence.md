@@ -18,3 +18,25 @@ for (int i = 1; i <= shortStr.length(); i++)
   }
 }
 ```
+
+### 두 문자열간 diff 출력하기  
+dp배열의 오른쪽 아래부터 왼쪽 위로 올라간다. x,y가 같다면 왼쪽 위로 이동하고, x,y가 다르다면 왼쪽과 위쪽 중 큰 수로 이동한다. 만약 왼쪽과 위쪽이 같다면 위쪽으로 이동하게 된다. 왼쪽과 위쪽이 같을 때 왼쪽으로 이동하면 결과가 다르게 나온다.  
+```  
+int backX = longStr.length();
+int backY = shortStr.length();
+
+while(backX > 0 && backY > 0) {
+  if(shortStr.charAt(backY - 1) == longStr.charAt(backX - 1)) {
+    sb.append(shortStr.charAt(backY - 1));
+    backX--;
+    backY--;
+    } else {
+      //이 부분 >=를 >로 바꾸면 다른 결과가 나온다.
+      if(dp[backY - 1][backX] >= dp[backY][backX - 1]) {
+        backY--;
+        } else {
+          backX--;
+        }
+    }
+}
+```  
