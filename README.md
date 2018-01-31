@@ -20,6 +20,7 @@
   * [문자열 처리 팁](https://github.com/dohun94/TIL/blob/master/java/StringHandling.md)
   * [배열 처리 팁](https://github.com/dohun94/TIL/blob/master/java/ArrayHandling.md)
   * [컬렉션 처리 팁](https://github.com/dohun94/TIL/blob/master/java/CollectionHandling.md)
+  * [Integer 클래스](https://github.com/dohun94/TIL/blob/master/java/IntegerHandling.md)
   * [console 실행](https://github.com/dohun94/TIL/blob/master/java/console.md)
   * [자바 인자 전달 방식](https://github.com/dohun94/TIL/blob/master/java/callByValue.md)  
   * [자바 자료형 정리](https://github.com/dohun94/TIL/blob/master/java/Types.md)
