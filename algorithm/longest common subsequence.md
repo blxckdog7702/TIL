@@ -1,6 +1,6 @@
 # 최장 공통 부분 수열(longest common subsequence)  
 
-![lcs](lcs.svg)  
+![lcs](image/lcs.svg)  
 
 x,y가 비교할 문자열이고, i,j는 그에 해당하는 인덱스라면  
 i == 0, j == 0 이면 0  

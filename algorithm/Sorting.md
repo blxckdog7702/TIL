@@ -10,7 +10,7 @@
 
 - 불안정 정렬 : 동일한 값에 대해 기존의 순서가 뒤바뀔 수 있는 정렬 방식  
 
-![불안정 정렬](stable-unstable.png)  
+![불안정 정렬](image/stable-unstable.png)  
 
 
 ## 삽입 정렬
@@ -32,8 +32,8 @@
 **정렬 방법**  
 - 정렬하려는 요소 n을 배열의 이미 정렬된 부분 중 어느 부분에 넣을지 찾아서 삽입하는 정렬이다.
 - 배열의 첫 번째 요소는 이미 정렬이 되어있다고 가정하고 두 번째부터 시작한다.
-![삽입정렬gif](Insertion-sort-example.gif)  
-![삽입정렬 내부](insertion-sort.png)  
+![삽입정렬gif](image/Insertion-sort-example.gif)  
+![삽입정렬 내부](image/insertion-sort.png)  
 
 ## 기수 정렬  
 **안정 여부**  
@@ -60,4 +60,4 @@
 - LSD radix sorting이 작은 자리수에서 큰 자리수로 정렬한다.
 - MSD radix sorting은 큰 자리수에서 작은 자리수로 정렬한다.
 
-![기수정렬](radix-sort.gif)  
+![기수정렬](image/radix-sort.gif)  
