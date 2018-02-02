@@ -4,9 +4,9 @@
 ### index  
 * 알고리즘  
   * [Knuth Optimization](https://github.com/dohun94/TIL/blob/master/algorithm/Knuth%20Optimization.md)
-  * [정렬 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/sort.md)
+  * [정렬 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/Sorting.md)
   * [꼬리 재귀](https://github.com/dohun94/TIL/blob/master/algorithm/Tail%20Recursion.md)  
-  * [LCS 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/longest%20common%20substring.md)
+  * [LCS 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/longest%20common%20subsequence.md)
 * 자료구조
   * [Trie](https://github.com/dohun94/TIL/blob/master/dataStructure/trie.md)
 
