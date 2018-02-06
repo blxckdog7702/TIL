@@ -31,3 +31,15 @@ Collections.sort(listDevs, new Comparator<Developer>() {
 
 3. 간편 출력  
   - ```coll.forEach((obj)->System.out.println(obj));```
+
+4. for-each 중 요소 삭제  
+for-each 중 컬렉션의 요소를 삭제하면 에러가 난다. 다음과 같이 구현하면 안전하게 사용가능하다.
+```  
+List<String> names = ....
+Iterator<String> i = names.iterator();
+while (i.hasNext()) {
+   String s = i.next(); // must be called before you can call i.remove()
+   // Do something
+   i.remove();
+}
+```
