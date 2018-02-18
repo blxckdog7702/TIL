@@ -8,7 +8,7 @@
   * [꼬리 재귀](https://github.com/dohun94/TIL/blob/master/algorithm/Tail%20Recursion.md)  
   * [LCS 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/longest%20common%20subsequence.md)
   * [편집거리 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/Edit%20Distance.md)
-  
+
 * 자료구조
   * [Trie](https://github.com/dohun94/TIL/blob/master/dataStructure/trie.md)
 
@@ -22,6 +22,7 @@
   * [문자열 처리 팁](https://github.com/dohun94/TIL/blob/master/java/StringHandling.md)
   * [배열 처리 팁](https://github.com/dohun94/TIL/blob/master/java/ArrayHandling.md)
   * [컬렉션 처리 팁](https://github.com/dohun94/TIL/blob/master/java/CollectionHandling.md)
+  * [제네릭](https://github.com/dohun94/TIL/blob/master/java/Generics.md)
   * [Integer 클래스](https://github.com/dohun94/TIL/blob/master/java/IntegerHandling.md)
   * [console 실행](https://github.com/dohun94/TIL/blob/master/java/console.md)
   * [자바 인자 전달 방식](https://github.com/dohun94/TIL/blob/master/java/callByValue.md)  
