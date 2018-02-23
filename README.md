@@ -29,6 +29,7 @@
   * [자바 자료형 정리](https://github.com/dohun94/TIL/blob/master/java/Types.md)
   * [EOF 처리](https://github.com/dohun94/TIL/blob/master/java/eof.md)
   * [hashCode() & equals()](https://github.com/dohun94/TIL/blob/master/java/hashcode%26equals.md)
+  * [메모리 구조](https://github.com/dohun94/TIL/blob/master/java/JavaMemoryStructure.md)
 
  * books
    * [Clean Code](https://github.com/dohun94/TIL/blob/master/books/cleanCode.md)
