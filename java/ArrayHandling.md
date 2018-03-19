@@ -13,6 +13,11 @@
 Arrays.sort(arr);
 ```
 
+2차원 배열은  
+```
+Arrays.sort(input, (a, b) -> Integer.compare(a[0], b[0]));
+```
+
 3. 간편 출력  
 - Java8
 ```
