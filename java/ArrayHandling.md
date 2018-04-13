@@ -64,3 +64,17 @@ public static int[] copyOf(int[] original, int newLength) {
    return copy;
 }
 ```
+
+2차원 배열 깊은 복사는 다음 방법으로 한다.   
+1. `Arrays.copyOf()` 1중 for문 반복
+```
+boolean[][] result = new boolean[original.length][];
+for (int i = 0; i < original.length; i++) {
+  result[i] = Arrays.copyOf(original[i], original[i].length);
+}
+```
+2. `System.arraycopy(original[i], 0, result[i], 0, original[i].length);` 1중 for문 반복
+
+3. `arr.clone()` 1중 for문 반복
+
+3. 2중 포문으로 일일이 복사
