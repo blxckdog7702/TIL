@@ -8,6 +8,7 @@
   * [꼬리 재귀](https://github.com/dohun94/TIL/blob/master/algorithm/Tail%20Recursion.md)  
   * [LCS 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/longest%20common%20subsequence.md)
   * [편집거리 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/Edit%20Distance.md)
+  * [상호배타적 집합 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/Disjoint%20Set.md)
 
 * 자료구조
   * [Trie](https://github.com/dohun94/TIL/blob/master/dataStructure/trie.md)
