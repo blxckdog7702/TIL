@@ -39,6 +39,7 @@
   * [hashCode() & equals()](https://github.com/dohun94/TIL/blob/master/java/hashcode%26equals.md)
   * [메모리 구조](https://github.com/dohun94/TIL/blob/master/java/JavaMemoryStructure.md)
   * [이클립스 팁](https://github.com/dohun94/TIL/blob/master/java/EclipseTip.md)
+  * [경로설정](https://github.com/dohun94/TIL/blob/master/java/path.md)
 
  * books
    * [Clean Code](https://github.com/dohun94/TIL/blob/master/books/cleanCode.md)
