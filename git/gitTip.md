@@ -7,3 +7,6 @@
 ``git commit -m "fixed untracked files"``  
 
 cached과 add 뒤에 한칸 공백 후 . 도 꼭 입력할 것!  
+
+## 파일명이 한글일 때  
+``git config --global core.quotepath false``
