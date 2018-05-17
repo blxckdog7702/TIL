@@ -81,6 +81,6 @@
 - 오름차순이나 내림차순으로 정렬되어 있을 때
 
 **정렬 방법**  
-![퀵소트1](image/quickSort1.png)  
-![퀵소트2](image/quickSort2.png)  
-![퀵소트3](image/quickSort3.png)  
+![퀵소트1](image/quickSort1.PNG)  
+![퀵소트2](image/quickSort2.PNG)  
+![퀵소트3](image/quickSort3.PNG)  
