@@ -47,3 +47,4 @@
 
  * etc
    * [프레임워크 vs 라이브러리](https://github.com/dohun94/TIL/blob/master/etc/frameworkVsLibrary.md)
+   * [OpenSSH 사용방법](https://github.com/dohun94/TIL/blob/master/etc/ssh.md)
