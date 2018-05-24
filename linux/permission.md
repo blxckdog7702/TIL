@@ -1,6 +1,6 @@
 # 리눅스 권한 설정  
-**change mode; chmod
-/bin/chmod
+**change mode; chmod  
+/bin/chmod  
 chmod 사용법**  
 
 리눅스 퍼미션 변경 명령어이다.  

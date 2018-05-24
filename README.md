@@ -41,6 +41,9 @@
   * [이클립스 팁](https://github.com/dohun94/TIL/blob/master/java/EclipseTip.md)
   * [경로설정](https://github.com/dohun94/TIL/blob/master/java/path.md)
 
+* linux
+  * [권한 설정](https://github.com/dohun94/TIL/blob/master/linux/permission.md)  
+
  * books
    * [Clean Code](https://github.com/dohun94/TIL/blob/master/books/cleanCode.md)
    * [TCP/IP가 보이는 그림책](https://github.com/dohun94/TIL/blob/master/books/Tcp-ip%EA%B0%80-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EA%B7%B8%EB%A6%BC%EC%B1%85.md)
