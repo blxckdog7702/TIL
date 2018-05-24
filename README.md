@@ -43,6 +43,7 @@
 
 * linux
   * [권한 설정](https://github.com/dohun94/TIL/blob/master/linux/permission.md)  
+  * [디렉토리 구조](https://github.com/dohun94/TIL/blob/master/linux/directoryTree.md)
 
  * books
    * [Clean Code](https://github.com/dohun94/TIL/blob/master/books/cleanCode.md)
