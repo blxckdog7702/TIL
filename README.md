@@ -12,6 +12,7 @@
 
 * 자료구조
   * [Trie](https://github.com/dohun94/TIL/blob/master/dataStructure/trie.md)
+  * [향상된 LinkedList](https://github.com/dohun94/TIL/blob/master/dataStructure/AdvancedLinkedList.md)
 
 * DB
   * [간단한SQL](https://github.com/dohun94/TIL/blob/master/DB/simpleSQL.md)
