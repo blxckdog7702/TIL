@@ -18,4 +18,44 @@
     - 같은 집합의 원소들은 하나의 트리로 관리한다.
     - 자식이 부모노드를 가리킨다.
     - 트리의 루트를 집합의 대표 원소로 삼는다.
-    ![tree](image/treeForDisjoint.JPG)
+    ![tree](image/treeForDisjoint.JPG)  
+
+```
+// disjoint-set 초기화 코드
+int[] p = new int[numOfCity + 1];
+			
+for (int i = 1; i <= numOfCity; i++) {
+  p[i] = i;
+}
+			
+int[] rank = new int[numOfCity + 1];
+
+if (findSet(p, item.from) != findSet(p, item.to)) {
+  union(p, rank, item.from, item.to);
+  count++;
+  result += item.d;
+}
+      
+private static int findSet(int[] p, int x) {
+  if (x != p[x]) {
+    p[x] = findSet(p, p[x]);
+  }
+    return p[x];
+}
+
+private static void link(int[] p, int[] rank, int x, int y) {
+  if (rank[x] > rank[y]) {
+    p[y] = x;
+  } else {
+    p[x] = y;
+    if (rank[x] == rank[y]) {
+      rank[y]++;
+    }
+  }
+}
+
+private static void union(int[] p, int[] rank, int x, int y) {
+  link(p, rank, findSet(p, x), findSet(p, y));
+}
+
+     
