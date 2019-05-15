@@ -2,6 +2,11 @@
 한 걸음부터.
 
 ### index  
+* [느낀점](https://github.com/dohun94/TIL/blob/master/diary.md)
+
+* AWS  
+  * [AWS 관련 정리](https://github.com/dohun94/TIL/blob/master/aws/awsSummary.md)
+
 * 알고리즘  
   * [Knuth Optimization](https://github.com/dohun94/TIL/blob/master/algorithm/Knuth%20Optimization.md)
   * [정렬 알고리즘](https://github.com/dohun94/TIL/blob/master/algorithm/Sorting.md)
@@ -45,6 +50,8 @@
 * linux
   * [권한 설정](https://github.com/dohun94/TIL/blob/master/linux/permission.md)  
   * [디렉토리 구조](https://github.com/dohun94/TIL/blob/master/linux/directoryTree.md)
+  * [명령어 모음](https://github.com/dohun94/TIL/blob/master/linux/command.md)
+   * [OpenSSH 사용방법](https://github.com/dohun94/TIL/blob/master/linux/ssh.md)
 
 * server
   * [톰캣 관련](https://github.com/dohun94/TIL/blob/master/server/tomcat.md)
@@ -54,5 +61,6 @@
    * [TCP/IP가 보이는 그림책](https://github.com/dohun94/TIL/blob/master/books/Tcp-ip%EA%B0%80-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EA%B7%B8%EB%A6%BC%EC%B1%85.md)
 
  * etc
+   * [기술용어집](https://github.com/dohun94/TIL/blob/master/glossary.md)
    * [프레임워크 vs 라이브러리](https://github.com/dohun94/TIL/blob/master/etc/frameworkVsLibrary.md)
-   * [OpenSSH 사용방법](https://github.com/dohun94/TIL/blob/master/etc/ssh.md)
+
