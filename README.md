@@ -63,4 +63,4 @@
  * etc
    * [기술용어집](https://github.com/dohun94/TIL/blob/master/glossary.md)
    * [프레임워크 vs 라이브러리](https://github.com/dohun94/TIL/blob/master/etc/frameworkVsLibrary.md)
-
+   * [소소한 개발 팁](https://github.com/dohun94/TIL/blob/master/etc/devTips.md)
